@@ -15,18 +15,18 @@ void main() {
     return;
   }
 
-  String letterGrade;
+  String nilaiAkhir;
   if (n >= 90) {
-    letterGrade = 'A';
+    nilaiAkhir = 'A';
   } else if (n >= 80) {
-    letterGrade = 'A';
+    nilaiAkhir = 'A';
   } else if (n >= 70) {
-    letterGrade = 'B';
+    nilaiAkhir = 'B';
   } else if (n >= 60) {
-    letterGrade = 'C';
+    nilaiAkhir = 'C';
   } else {
-    letterGrade = 'F';
+    nilaiAkhir = 'F';
   }
 
-  print('Nilai Hasil Akhir Anda Adalah $letterGrade');
+  print('Nilai Hasil Akhir Anda Adalah $nilaiAkhir');
 }
